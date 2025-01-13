@@ -31,15 +31,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head>
         <link rel="icon" href="/icons/favicon.ico" />
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-        <meta name="description" content="Your description here" />
-        <meta name="keywords" content="MehtaGraphics, logo, design" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="description" content="Professional graphic design services by MehtaGraphics." />
+        <meta name="keywords" content="MehtaGraphics, graphic design, logo design, digital art" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Your Page Title" />
-        <meta property="og:description" content="Your description here" />
+        <meta property="og:title" content="MehtaGraphics - Professional Graphic Design" />
+        <meta property="og:description" content="Explore our innovative graphic design solutions." />
         <meta property="og:url" content="https://mehtagraphics.netlify.app" />
-        <meta property="og:image:alt" content="Your image alt text" />
+        <meta property="og:image" content="/public/icons/og-image.png" />
+        <meta property="og:image:alt" content="A sample graphic design by MehtaGraphics" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="MehtaGraphics - Professional Graphic Design" />
+        <meta name="twitter:description" content="Explore our innovative graphic design solutions." />
       </head>
       <body className={cn(
         "min-h-screen bg-background font-sans antialiased",
